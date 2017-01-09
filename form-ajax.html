@@ -27,30 +27,31 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-4">
-            <div id="Left">
-                <h2>Major Topics</h2>
-                <ul>
-                    <li>Form</li>
-                    <li>Bootcamp</li>
-                    <li>Input Types</li>
-                    <li>Text Area</li>
-                    <li>Sending Data</li>
-                    <li>Getting back result</li>
-                    <li>Validation</li>
-                </ul>
-                <h2>Requirements</h2>
-                <ul>
-                    <li>use Bootstrap</li>
-                    <!--<li>Use my script to install DB engine and PHP code</li>-->
-                    <li>Validate all input to accept only acceptable information</li>
-                    <li>Give good, localized feedback on invalid input</li>
-                    <li>Use styles to give it a reasonable look and feel</li>
-                </ul>
-                <button type="button" class="btn btn-primary btn-block" id="HideLeft">hide</button>
-            </div>
+        <div id="table" class="col-sm-8">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Current City</th>
+                    <th>uid</th>
+                    <th>IP</th>
+                    <th>When</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td>july@example.com</td>
+                </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-primary btn-block" id="HideLeft">Update</button>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-4">
             <h2>User Information Form</h2>
             <form role="form" method='post' action='http://campbest.270e.csi.miamioh.edu/forms/form.php' id='myform'>
                 <div class="form-group">
